@@ -3,6 +3,7 @@
 A script to automatically create and/or open a list of social media URLs.
 
 **Usage**
+![image](https://github.com/sockysec/automatr/assets/121141737/759b6279-17a0-41e9-be4f-32ab160d755e)
 
 Options:
 1. Open a list of social media search URLs within your browser.
