@@ -2,7 +2,7 @@
 
 A script to automatically create and/or open a list of social media URLs.
 
-#Use
+**Usage**
 
 Options:
 1. Open a list of social media search URLs within your browser.
@@ -11,5 +11,5 @@ Options:
       - This assumes that the input list (csv/txt) has each desired name on a separate line.
       - Search URLs will be generated for FB, Nitter, Picuki
 
-#Disclaimer
+**Disclaimer**
 This script is for educational purposes only, as a test of browser functionality.
