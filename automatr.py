@@ -22,7 +22,7 @@ while True:
     print("1. Open a list of social media search URLs within your browser.")
     print("2. Search for a name across social media.")
     print("3. Configure a list of social media search URLs based on an input list of names.")
-    option = input("Select an option (1 or 2): ")
+    option = input("Select an option (1, 2, or 3): ")
 
     if option == "1":
         subprocess.call(["python3", "runscan.py"])
