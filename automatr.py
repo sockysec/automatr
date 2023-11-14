@@ -35,4 +35,3 @@ while True:
         break
     else:
         print("Invalid option. Please choose 1, 2, or 3.")
-

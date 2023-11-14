@@ -4,6 +4,7 @@ import time
 
 BATCH_SIZE = 3
 
+
 def open_urls_from_file(file_name):
     with open(file_name, 'r') as file:
         urls = file.readlines()
@@ -12,7 +13,7 @@ def open_urls_from_file(file_name):
         num_batches = num_urls // BATCH_SIZE
 
         for i in range(num_batches):
-            batch_urls = urls[i * BATCH_SIZE : (i + 1) * BATCH_SIZE]
+            batch_urls = urls[i * BATCH_SIZE: (i + 1) * BATCH_SIZE]
 
             for url in batch_urls:
                 webbrowser.open(url.strip())
@@ -25,6 +26,7 @@ def open_urls_from_file(file_name):
         remaining_urls = urls[num_batches * BATCH_SIZE:]
         for url in remaining_urls:
             webbrowser.open(url.strip())
+
 
 # Prompt the user to sign in to Facebook
 print("Please sign in to Facebook within your web browser.")
